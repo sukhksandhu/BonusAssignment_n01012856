@@ -124,6 +124,9 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="bonusassignmentpart1.aspx" />
+    <Content Include="bonusassignmentpart2.aspx" />
+    <Content Include="bonusassignmentpart3.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -207,6 +210,27 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="bonusassignmentpart1.aspx.cs">
+      <DependentUpon>bonusassignmentpart1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bonusassignmentpart1.aspx.designer.cs">
+      <DependentUpon>bonusassignmentpart1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bonusassignmentpart2.aspx.cs">
+      <DependentUpon>bonusassignmentpart2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bonusassignmentpart2.aspx.designer.cs">
+      <DependentUpon>bonusassignmentpart2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bonusassignmentpart3.aspx.cs">
+      <DependentUpon>bonusassignmentpart3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bonusassignmentpart3.aspx.designer.cs">
+      <DependentUpon>bonusassignmentpart3.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
