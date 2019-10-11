@@ -40,6 +40,7 @@ namespace bonusassignment
                     {
                         quadrantsummary.InnerHtml = "Point lies in fourth quadrant";
                     }
+                   
 
                 }
             }
@@ -47,13 +48,14 @@ namespace bonusassignment
         protected void quadrantvalidate(object sender, ServerValidateEventArgs e)
         {
             int quadrantinput = Convert.ToInt32(e.Value);
+            //validating for x and y values  to be non-zero
             if (quadrantinput == 0)
             {
                 e.IsValid = false;
             }
             else
             {
-                //quadrantsummary.InnerHtml = " ";
+                
                 e.IsValid = true;
             }
 

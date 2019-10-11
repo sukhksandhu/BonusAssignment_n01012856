@@ -12,6 +12,7 @@
         <div>
             <h2>Enter first input x:</h2>
             <asp:TextBox runat="server" ID="quadrantfirstinput"></asp:TextBox>
+           
             <asp:CustomValidator runat="server" ControlToValidate="quadrantfirstinput" 
                 ErrorMessage="Please enter valid input (non-zero)" OnServerValidate="quadrantvalidate"></asp:CustomValidator>
 

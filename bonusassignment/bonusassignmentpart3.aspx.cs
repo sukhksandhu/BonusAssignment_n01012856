@@ -17,13 +17,16 @@ namespace bonusassignment
                 if (Page.IsValid)
                 {
                     summarytickets.InnerHtml = "";
+                    //initializing my variables 
                     float ticketcost = 0.25F;
                     int TicketsOrdered = Convert.ToInt32(ticketsordered.Text);
+                    //variable for holding bundled group value
                     int bundled = 0;
 
                     for (int i = 1; i <= TicketsOrdered; i++)
                     {
-
+                        //checking first group
+                        //how do we know how many tickets they ordered
                         if (TicketsOrdered <= 50)
                         {
                             summarytickets.InnerHtml += "You received a bundle of 1! That's " + i.ToString() + " ticket(s)<br>";
@@ -79,6 +82,7 @@ namespace bonusassignment
                     }
                     //how do we know the left over? i assigned the variable bundled 
                     //if total number of tickets divided by bundled number is not zero 
+                    //if there are leftover tickets
                     if (TicketsOrdered % bundled != 0)
                     {
                         //then if is not zero what are the possible values
